@@ -1,0 +1,563 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+    
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+// header
+header{
+    display: flex;
+}
+.logo{
+    img{
+        width: 30px;
+        margin: 10px;
+    }
+}
+.menu{
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    .top{
+        margin-left: 40px;
+        margin-top: 30px;
+        a{  
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            &:hover{
+                color:white;
+                background: black;
+            }
+        }
+        
+    }
+}
+
+// container first page
+.container-one{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex: 1 1 auto;
+    // Container Filter
+    .filter{
+        margin-right: 300px;
+        margin-top: 100px;
+        width: 100px;
+        margin-left: 10px;
+        .guns-filter{
+            display: flex;
+            margin-bottom: 10px;
+            input{
+                width: 50px;
+                height: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+            #low-guns{
+                width: 40px;
+            }
+            #high-guns{
+                width: 37px;
+            }
+        }
+        .people-filter{
+            display: flex;
+            input{
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    // Container Burger
+    .burger{
+        &-sail, &-repair, &-guns, &-team{
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 10px;
+            padding-left: 0;
+            > :hover{
+                color:blue;
+                font-size: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            li{
+                margin-top: 5px;
+                list-style-type: none;
+                margin-left: 20px;
+                font-size: 14px;
+                font-weight: normal;
+                :hover{
+                    color:red;
+                    font-size: 16px;
+                }
+            }
+        } 
+    }
+    // Card On the Main Page
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -10px;
+        display: flex;
+        margin-bottom: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        // Card first page
+        .card{
+            
+            .close {
+                text-decoration: none;
+                text-align: right;
+                margin-right: 10px;
+                display: none;
+            }
+            .show {
+                display: block;
+            }
+            padding: 5px;
+            border: 1px solid red;
+            margin-right: 15px;
+            margin-top: 10px;
+
+            img{
+                width: 130px;
+                margin-bottom: 10px;
+                margin-top: 5px;
+            }
+
+            p{
+                padding: 0 0 3px 0;
+                margin: 0;
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+
+// container second page
+.container-two{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: -100px;
+    display: flex;
+    flex: 1 1 auto;
+    // Container Filter
+    .filter{
+        margin-top: 100px;
+        margin-right: 300px;
+        width: 100px;
+        margin-left: 10px;
+        .guns-filter{
+            display: flex;
+            margin-bottom: 10px;
+            input{
+                width: 50px;
+                height: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+            #low-guns{
+                width: 40px;
+            }
+            #high-guns{
+                width: 37px;
+            }
+        }
+        .people-filter{
+            display: flex;
+            input{
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    // Container Burger
+    .burger{
+        &-sail, &-repair, &-guns, &-team{
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: 10px;
+            padding-left: 0;
+            > :hover{
+                color:blue;
+                font-size: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            li{
+                margin-top: 5px;
+                list-style-type: none;
+                margin-left: 20px;
+                font-size: 14px;
+                font-weight: normal;
+                :hover{
+                    color:red;
+                    font-size: 16px;
+                }
+            }
+        } 
+    }
+
+    .card-container-two{
+        display: flex;
+        margin-bottom: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+        // Card second page
+        .card-second-page{
+            .modClose{
+                margin-left: 140px;
+                text-decoration: none;
+            }
+            height: 315px;
+            padding: 5px;
+            border: 1px solid red;
+            margin-right: 15px;
+            
+            img{
+                margin-bottom: 10px;
+                margin-top: 5px;
+                width: 130px;
+            }
+            
+            p{
+                padding: 0 0 3px 0;
+                margin: 0;
+                text-align: left;
+            }
+        }
+
+        // Form and about
+        .left-about-and-form{
+
+            // About capitan
+            .about-me{
+                margin-left: 0px;
+                padding-top: 10px;
+                border: 1px solid red;
+                display: flex;
+                height: 140px;
+                width: 500px;
+                img{
+                    width: 140px;
+                    margin-top: 0px;
+                    margin-left: 5px;
+                }
+                p{
+                    padding: 0;
+                    margin: 0;
+                }
+                .first-row{
+                    margin: 20px 30px 0 10px;
+                    text-align: left;
+                    padding: 0;
+                }
+                .second-row{
+                    margin: 20px 0px 0 0px;
+                    text-align: left;
+                    padding: 0;
+                }
+            }
+
+            // Form
+            .form{
+
+                border: 1px solid red;
+                width: 500px;
+                margin-left: 0px;
+                margin-top: 13px;
+                height: 150px;
+                padding-top: 10px;
+                .btn{
+                    margin-left: 230px;
+
+                    // BTN FORM
+                    button{
+                        background: white;
+                        border: 1px solid red;
+                        padding: 0;
+                        margin-left: 70px;
+                        margin-top: 30px;
+                        width: 150px;
+                        height: 25px;
+                        &:hover{
+                            color:white;
+                            background:black;
+                        }
+                    }
+                }
+                // Input form
+                .input{
+                    label{
+                        padding-left: 20px;
+                    }
+                    display: flex;
+                    margin-top: 10px;
+
+                    // Name input
+                    .input-name{
+                        padding-bottom: 10px;
+                        text-align: left;
+                        margin-right: 20px;
+                        input{
+                            width: 170px;
+                        }
+                    }
+
+                    // Amount input
+                    .input-amount{
+                        margin-right: 20px;
+                        input{
+                            width: 120px;
+                        }
+                    }
+
+                    // Class input
+                    .input-class{
+                        padding-bottom: 10px;
+                        text-align: left;
+                        margin-right: 20px;
+                        input{
+                            width: 140px;
+                        }
+                    }
+
+                    // Price input
+                    .input-price{
+                        text-align: left;
+                        margin-right: 20px;
+                        input{
+                            width: 145px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .weather{
+        .top-name-weater{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        .weather-data{
+            table{
+                font-size: 17px;
+                margin: 0 auto ;
+                td{
+                    padding: 15px 25px;
+                }
+            }
+        }
+    }
+    // .top-name-weater{
+    //     font-size: 30px;
+    //     text-align: center;
+    //  }
+    //  .weather-data{
+    //     text-align: center;
+    //     table{
+    //         text-align: center;
+    //     }
+    //     td{
+    //         padding: 15px;
+    //      }
+    //  }
+     
+}
+
+// Третья часть
+.wrapper{
+    margin-bottom: -100px;
+        .container-three{
+        margin-top: 50px;
+        margin-left: 100px;
+        height: 20px;
+        display: flex;
+        flex: 1 1 auto;
+        // Container Filter
+        .filter{
+            margin-top: 100px;
+            margin-right: 300px;
+            width: 100px;
+            margin-left: 10px;
+            .guns-filter{
+                display: flex;
+                margin-bottom: 10px;
+                input{
+                    width: 50px;
+                    height: 30px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    
+                }
+                #low-guns{
+                    width: 40px;
+                }
+                #high-guns{
+                    width: 37px;
+                }
+            }
+            .people-filter{
+                display: flex;
+                input{
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        // Container Burger
+        .burger{
+            &-sail, &-repair, &-guns, &-team{
+                font-weight: bold;
+                font-size: 18px;
+                margin-left: 10px;
+                padding-left: 0;
+                > :hover{
+                    color:blue;
+                    font-size: 25px;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                li{
+                    margin-top: 5px;
+                    list-style-type: none;
+                    margin-left: 20px;
+                    font-size: 14px;
+                    font-weight: normal;
+                    :hover{
+                        color:red;
+                        font-size: 16px;
+                    }
+                }
+            } 
+        }
+
+        .left-part{
+            max-height: 250px;
+        }
+        .container-three{
+            max-height: 420px;
+            margin-bottom: -400px;
+        }
+        .central-part-three{
+            height: 420px;
+        
+            img{
+                width: 500px;
+                height: 325px;
+            }
+        
+            .slider{
+                width: 500px;
+                height: 325px;
+                border: 2px solid black;
+                margin: 0;
+                overflow: hidden;
+                position: relative;
+            }
+            .slider-line{
+                width: 2000px;
+                height: 325px;
+                position: relative;
+                left: 0;
+                display: flex;
+                transition: all ease 1s;
+            }
+            .arrow{
+                margin: 10px 0 0 130px;
+            }
+            .btnSlider{
+                margin: 0px 0 10px 180px;
+            }
+            .prev{
+                width: 3%;
+                height: 3%;
+                margin: 0 50px;
+            } 
+            .next{
+                width: 3%;
+                height: 3%;
+                margin: 0 50px;
+            }
+        
+        /* Кнопки включения карусели в слайдере */
+            .btnSlider{
+                margin-top: 20px;
+            }
+            .btnStart{
+                padding: 5px 20px;
+                font-size: 15px;
+                background: none;
+                border: 1px solid black;
+            }
+            .btnStart:hover{
+                background: black;
+                color: #fff;
+            }
+            .btnStop{
+                padding: 5px 20px;
+                font-size: 15px;
+                background: none;
+                border: 1px solid black;
+                margin-left: 10px;
+            }
+            .btnStop:hover{
+                background: black;
+                color: #fff;
+            }
+        }
+        
+}
+}
+
+// Footer
+.footer-container{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 70px;
+    }
+    .describe-center{
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+}

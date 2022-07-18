@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirat</title>
+</head>
+<body>
+    <!-- Header -->
+<div class="wrapper">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/anchor.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <div class="menu">
+                <div class="Island top">
+                    <a href="index.html">Бухта Одинокого острова</a>
+                </div>
+                <div class="Ship top">
+                    <a href="second-page.html">Мой корабль</a>
+                </div>
+                <div class="Ship--slide top">
+                    <a href="third-page.html">Галерея</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- center -->
+    <div class="container-two">
+        <!-- Left part -->
+        <div class="left-part">
+                <!-- Filter -->
+            <div class="filter">
+                <div class="guns-filter">
+                    <label for="low-guns">мин. <br> пушки</label>
+                    <input type="number" id="low-guns">
+
+                    <label class="high-guns" for="high-guns">макс. <br> пушки</label>
+                    <input type="number" id="high-guns">
+                </div>
+                <div class="people-filter">
+                    <label for="low-peolpe">мин. <br> человек</label>
+                    <input type="number" id="low-peolpe">
+
+                    <label for="high-peolpe">макс. <br> человек</label>
+                    <input type="number" id="high-peolpe">
+                </div>
+            </div>
+
+
+            <!-- Burger -->
+            <div class="burger">
+                <!-- Паруса -->
+                    <ul class="burger-sail">
+                        <a href="#"> Паруса</a>
+                        <div class="sail-list">
+                            <li class="li-burger">
+                                <a href="#">Шпринтовые</a></li>
+                            <li class="li-burger">
+                                <a href="#">Бермудские</a></li>
+                            <li class="li-burger">
+                                <a href="#">Гафельные</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Ремонт -->
+                    <ul class="burger-repair">
+                        <a href="#">Ремонт</a>
+                        <div class="repait-list">
+                            <li class="li-burger">
+                                <a href="#">Обычный</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Отстрый</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Пушки -->
+                    <ul class="burger-guns">
+                        <a href="#">Пушки</a>
+                        <div class="guns-list">
+                            <li class="li-burger">
+                                <a href="#">Пушки</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Кулеврины</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Команда -->
+                    <ul class="burger-team">
+                        <a href="#">Команда</a>
+                        <div class="team-list">
+                            <li class="li-burger">
+                                <a href="#">Салаги</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Морские волки</a>
+                            </li>
+                        </div>
+                    </ul>    
+            </div>
+        </div>
+
+        <!-- Central part -->
+        <div class="central-part">
+            <div class="card-container-two">          
+            <!-- Card second page -->
+                <div class="card-second-page">
+                    <!-- <div><a class="modal__close" href="#">&times;</a></div> -->
+                    <img class="img-four" src='img/ship.png' alt='Упс'>
+                    <p class="card-dscr">Фрегат "Морской Волк"</p>
+                    <p class="card-dscr">Класс:  4</p>
+                    <p class="card-dscr">Пушки: 20 шт</p>
+                    <p class="card-dscr">Корпус: 218 шт</p>
+                    <p class="card-dscr">Команда: 189 чел.</p>
+                    <p class="card-dscr">Трюм: 2800</p>
+                    <p class="card-dscr">Скорость: 14.5 узлов</p>
+                    <p class="card-dscr">Маневренность: 5.5</p>
+                </div>
+                <!-- Form and about second page -->
+                <div class="left-about-and-form">
+                    <div class="about">
+                        <div class="about-me">
+                            <div class="img">
+                                <img src="img/pirate.png" alt="Упс">
+                            </div>
+                            <div class="first-row">
+                                <p>Имя: Иван Иванов</p>
+                                <p>Класс: 98</p>
+                                <p>Урон саблей: 35</p>
+                            </div>
+                            <div class="second-row">
+                                <p>Возраст: 26</p>
+                                <p>Дуюлонов: 1434 </p>
+                                <p>Урон Пистолеты: 80</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form">Заявка на покупку судна
+                        <form action="#">
+                            <div class="input">
+                                <div class="input-left">
+                                    <div class="input-name">
+                                        <label  for="name">Имя:</label>
+                                        <input tabindex="1" type="text" id="name">
+                                    </div>
+                                    <div class="input-amount">
+                                        <label for="amount">Количество:</label>
+                                        <input tabindex="2" type="number" id="amount">
+                                    </div>
+                                </div>
+                                <div class="input-rigth">
+                                    <div class="input-class">
+                                        <label for="class">Класс:</label>
+                                        <input tabindex="3" type="number" id="class">
+                                    </div>
+                                    <div class="input-price">
+                                        <label for="price">Цена:</label>
+                                        <input tabindex="4" type="number" id="price">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button tabindex="5" type="submit">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather">
+                <div class="top-name-weater">
+                    Weater forecast fo a brave capitan
+                </div>
+
+                <div class="weather-data">
+                    <table>
+                        <tr>
+                            <td>Haiti</td>
+                            <td class="data-one"></td>
+                            <td class="degree-one"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Maiti</td>
+                            <td class="data-two"></td>
+                            <td class="degree-two"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Naiti</td>
+                            <td class="data-three"></td>
+                            <td class="degree-three"></td>
+                            
+                        </tr>
+                      </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="left-img">
+                <img src="img/metka.jpg" alt="Упс">
+                <img src="img/sunduk.jpg" alt="Упс">
+            </div>
+            <div class="describe-center">
+                Капитан Владислав Анатольевич, пират, <br>
+                человек чести.<br>
+                Судно Каравелла "Чёрная Жемчужина".
+            </div>
+            <div class="rigth-img">
+                <img src="img/sunduk.jpg" alt="Упс">
+                <img src="img/metka.jpg" alt="Упс">
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="script-secondPage.js"></script>
+</body>
+</html>

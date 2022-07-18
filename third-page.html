@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirat</title>
+</head>
+<body>
+    <!-- Header -->
+<div class="wrapper">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/anchor.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <div class="menu">
+                <div class="Island top">
+                    <a href="index.html">Бухта Одинокого острова</a>
+                </div>
+                <div class="Ship top">
+                    <a href="second-page.html">Мой корабль</a>
+                </div>
+                <div class="Ship--slide top">
+                    <a href="third-page.html">Галерея</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- center -->
+    <div class="container-three">
+        <!-- Left part -->
+        <div class="left-part">
+                <!-- Filter -->
+            <div class="filter">
+                <div class="guns-filter">
+                    <label for="low-guns">мин. <br> пушки</label>
+                    <input type="number" id="low-guns">
+
+                    <label class="high-guns" for="high-guns">макс. <br> пушки</label>
+                    <input type="number" id="high-guns">
+                </div>
+                <div class="people-filter">
+                    <label for="low-peolpe">мин. <br> человек</label>
+                    <input type="number" id="low-peolpe">
+
+                    <label for="high-peolpe">макс. <br> человек</label>
+                    <input type="number" id="high-peolpe">
+                </div>
+            </div>
+
+
+            <!-- Burger -->
+            <div class="burger">
+                <!-- Паруса -->
+                    <ul class="burger-sail">
+                        <a href="#"> Паруса</a>
+                        <div class="sail-list">
+                            <li class="li-burger">
+                                <a href="#">Шпринтовые</a></li>
+                            <li class="li-burger">
+                                <a href="#">Бермудские</a></li>
+                            <li class="li-burger">
+                                <a href="#">Гафельные</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Ремонт -->
+                    <ul class="burger-repair">
+                        <a href="#">Ремонт</a>
+                        <div class="repait-list">
+                            <li class="li-burger">
+                                <a href="#">Обычный</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Отстрый</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Пушки -->
+                    <ul class="burger-guns">
+                        <a href="#">Пушки</a>
+                        <div class="guns-list">
+                            <li class="li-burger">
+                                <a href="#">Пушки</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Кулеврины</a>
+                            </li>
+                        </div>
+                    </ul>
+                
+                <!-- Команда -->
+                    <ul class="burger-team">
+                        <a href="#">Команда</a>
+                        <div class="team-list">
+                            <li class="li-burger">
+                                <a href="#">Салаги</a>
+                            </li>
+                            <li class="li-burger">
+                                <a href="#">Морские волки</a>
+                            </li>
+                        </div>
+                    </ul>    
+            </div>
+        </div>
+
+        <!-- Central part -->
+        <div class="central-part-three">
+            <div class="container">    
+                <div class="slider">
+                  <div class="slider-line">
+                    <img src="img/ship-one.jpg" alt="Упс">
+                    <img src="img/ship-two.jpg" alt="Упс">
+                    <img src="img/ship-three.jpg" alt="Упс">
+                    <img src="img/ship-four.jpg" alt="Упс">
+                  </div>
+            
+                  <ul>
+                    <li class="show"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                </div>
+            
+                <div class="arrow"> 
+                  <img class="prev" src="img/left.png" alt="prev">
+                  <img class="next" src="img/rigth.png" alt="next">
+                </div>
+            
+                <div class="btnSlider">
+                  <button class="btnStart">Start</button>
+                  <button class="btnStop">Stop</button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="left-img">
+                <img src="img/metka.jpg" alt="Упс">
+                <img src="img/sunduk.jpg" alt="Упс">
+            </div>
+            <div class="describe-center">
+                Капитан Владислав Анатольевич, пират, <br>
+                человек чести.<br>
+                Судно Каравелла "Чёрная Жемчужина".
+            </div>
+            <div class="rigth-img">
+                <img src="img/sunduk.jpg" alt="Упс">
+                <img src="img/metka.jpg" alt="Упс">
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="script-thirdPage.js"></script>
+</body>
+</html>

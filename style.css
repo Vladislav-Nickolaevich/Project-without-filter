@@ -1,0 +1,630 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#aea4e3), to(#d3ffe8));
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo img {
+  width: 30px;
+  margin: 10px;
+}
+
+.menu {
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu .top {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.menu .top a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.menu .top a:hover {
+  color: white;
+  background: black;
+}
+
+.container-one {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.container-one .filter {
+  margin-right: 300px;
+  margin-top: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.container-one .filter .guns-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.container-one .filter .guns-filter input {
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-one .filter .guns-filter #low-guns {
+  width: 40px;
+}
+
+.container-one .filter .guns-filter #high-guns {
+  width: 37px;
+}
+
+.container-one .filter .people-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-one .filter .people-filter input {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-one .burger-sail, .container-one .burger-repair, .container-one .burger-guns, .container-one .burger-team {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+.container-one .burger-sail > :hover, .container-one .burger-repair > :hover, .container-one .burger-guns > :hover, .container-one .burger-team > :hover {
+  color: blue;
+  font-size: 25px;
+}
+
+.container-one .burger-sail a, .container-one .burger-repair a, .container-one .burger-guns a, .container-one .burger-team a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-one .burger-sail li, .container-one .burger-repair li, .container-one .burger-guns li, .container-one .burger-team li {
+  margin-top: 5px;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.container-one .burger-sail li :hover, .container-one .burger-repair li :hover, .container-one .burger-guns li :hover, .container-one .burger-team li :hover {
+  color: red;
+  font-size: 16px;
+}
+
+.container-one .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -10px;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container-one .card-container .card {
+  padding: 5px;
+  border: 1px solid red;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.container-one .card-container .card .close {
+  text-decoration: none;
+  text-align: right;
+  margin-right: 10px;
+  display: none;
+}
+
+.container-one .card-container .card .show {
+  display: block;
+}
+
+.container-one .card-container .card img {
+  width: 130px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.container-one .card-container .card p {
+  padding: 0 0 3px 0;
+  margin: 0;
+  text-align: left;
+}
+
+.container-two {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.container-two .filter {
+  margin-top: 100px;
+  margin-right: 300px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.container-two .filter .guns-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.container-two .filter .guns-filter input {
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-two .filter .guns-filter #low-guns {
+  width: 40px;
+}
+
+.container-two .filter .guns-filter #high-guns {
+  width: 37px;
+}
+
+.container-two .filter .people-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-two .filter .people-filter input {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-two .burger-sail, .container-two .burger-repair, .container-two .burger-guns, .container-two .burger-team {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+.container-two .burger-sail > :hover, .container-two .burger-repair > :hover, .container-two .burger-guns > :hover, .container-two .burger-team > :hover {
+  color: blue;
+  font-size: 25px;
+}
+
+.container-two .burger-sail a, .container-two .burger-repair a, .container-two .burger-guns a, .container-two .burger-team a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-two .burger-sail li, .container-two .burger-repair li, .container-two .burger-guns li, .container-two .burger-team li {
+  margin-top: 5px;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.container-two .burger-sail li :hover, .container-two .burger-repair li :hover, .container-two .burger-guns li :hover, .container-two .burger-team li :hover {
+  color: red;
+  font-size: 16px;
+}
+
+.container-two .card-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-two .card-container-two .card-second-page {
+  height: 315px;
+  padding: 5px;
+  border: 1px solid red;
+  margin-right: 15px;
+}
+
+.container-two .card-container-two .card-second-page .modClose {
+  margin-left: 140px;
+  text-decoration: none;
+}
+
+.container-two .card-container-two .card-second-page img {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 130px;
+}
+
+.container-two .card-container-two .card-second-page p {
+  padding: 0 0 3px 0;
+  margin: 0;
+  text-align: left;
+}
+
+.container-two .card-container-two .left-about-and-form .about-me {
+  margin-left: 0px;
+  padding-top: 10px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140px;
+  width: 500px;
+}
+
+.container-two .card-container-two .left-about-and-form .about-me img {
+  width: 140px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.container-two .card-container-two .left-about-and-form .about-me p {
+  padding: 0;
+  margin: 0;
+}
+
+.container-two .card-container-two .left-about-and-form .about-me .first-row {
+  margin: 20px 30px 0 10px;
+  text-align: left;
+  padding: 0;
+}
+
+.container-two .card-container-two .left-about-and-form .about-me .second-row {
+  margin: 20px 0px 0 0px;
+  text-align: left;
+  padding: 0;
+}
+
+.container-two .card-container-two .left-about-and-form .form {
+  border: 1px solid red;
+  width: 500px;
+  margin-left: 0px;
+  margin-top: 13px;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .btn {
+  margin-left: 230px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .btn button {
+  background: white;
+  border: 1px solid red;
+  padding: 0;
+  margin-left: 70px;
+  margin-top: 30px;
+  width: 150px;
+  height: 25px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .btn button:hover {
+  color: white;
+  background: black;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input label {
+  padding-left: 20px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-name {
+  padding-bottom: 10px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-name input {
+  width: 170px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-amount {
+  margin-right: 20px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-amount input {
+  width: 120px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-class {
+  padding-bottom: 10px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-class input {
+  width: 140px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-price {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.container-two .card-container-two .left-about-and-form .form .input .input-price input {
+  width: 145px;
+}
+
+.container-two .weather {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.container-two .weather .top-name-weater {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container-two .weather .weather-data table {
+  font-size: 17px;
+  margin: 0 auto;
+}
+
+.container-two .weather .weather-data table td {
+  padding: 15px 25px;
+}
+
+.wrapper {
+  margin-bottom: -100px;
+}
+
+.wrapper .container-three {
+  margin-top: 50px;
+  margin-left: 100px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.wrapper .container-three .filter {
+  margin-top: 100px;
+  margin-right: 300px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.wrapper .container-three .filter .guns-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.wrapper .container-three .filter .guns-filter input {
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapper .container-three .filter .guns-filter #low-guns {
+  width: 40px;
+}
+
+.wrapper .container-three .filter .guns-filter #high-guns {
+  width: 37px;
+}
+
+.wrapper .container-three .filter .people-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .container-three .filter .people-filter input {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapper .container-three .burger-sail, .wrapper .container-three .burger-repair, .wrapper .container-three .burger-guns, .wrapper .container-three .burger-team {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+.wrapper .container-three .burger-sail > :hover, .wrapper .container-three .burger-repair > :hover, .wrapper .container-three .burger-guns > :hover, .wrapper .container-three .burger-team > :hover {
+  color: blue;
+  font-size: 25px;
+}
+
+.wrapper .container-three .burger-sail a, .wrapper .container-three .burger-repair a, .wrapper .container-three .burger-guns a, .wrapper .container-three .burger-team a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper .container-three .burger-sail li, .wrapper .container-three .burger-repair li, .wrapper .container-three .burger-guns li, .wrapper .container-three .burger-team li {
+  margin-top: 5px;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.wrapper .container-three .burger-sail li :hover, .wrapper .container-three .burger-repair li :hover, .wrapper .container-three .burger-guns li :hover, .wrapper .container-three .burger-team li :hover {
+  color: red;
+  font-size: 16px;
+}
+
+.wrapper .container-three .left-part {
+  max-height: 250px;
+}
+
+.wrapper .container-three .container-three {
+  max-height: 420px;
+  margin-bottom: -400px;
+}
+
+.wrapper .container-three .central-part-three {
+  height: 420px;
+  /* Кнопки включения карусели в слайдере */
+}
+
+.wrapper .container-three .central-part-three img {
+  width: 500px;
+  height: 325px;
+}
+
+.wrapper .container-three .central-part-three .slider {
+  width: 500px;
+  height: 325px;
+  border: 2px solid black;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper .container-three .central-part-three .slider-line {
+  width: 2000px;
+  height: 325px;
+  position: relative;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.wrapper .container-three .central-part-three .arrow {
+  margin: 10px 0 0 130px;
+}
+
+.wrapper .container-three .central-part-three .btnSlider {
+  margin: 0px 0 10px 180px;
+}
+
+.wrapper .container-three .central-part-three .prev {
+  width: 3%;
+  height: 3%;
+  margin: 0 50px;
+}
+
+.wrapper .container-three .central-part-three .next {
+  width: 3%;
+  height: 3%;
+  margin: 0 50px;
+}
+
+.wrapper .container-three .central-part-three .btnSlider {
+  margin-top: 20px;
+}
+
+.wrapper .container-three .central-part-three .btnStart {
+  padding: 5px 20px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid black;
+}
+
+.wrapper .container-three .central-part-three .btnStart:hover {
+  background: black;
+  color: #fff;
+}
+
+.wrapper .container-three .central-part-three .btnStop {
+  padding: 5px 20px;
+  font-size: 15px;
+  background: none;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.wrapper .container-three .central-part-three .btnStop:hover {
+  background: black;
+  color: #fff;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-container img {
+  width: 70px;
+}
+
+.footer-container .describe-center {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */
